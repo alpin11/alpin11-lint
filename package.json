@@ -1,17 +1,19 @@
 {
-  "name": "lint",
+  "name": "@alpin11/lint",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "extendable lint config used by Alpin11",
+  "author": "Johann Berger <j.berger@alpin11.at> (https://www.alpin11.at/)",
+  "files": [
+    ".eslintrc",
+    ".stylelintrc"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alpin11/lint.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/alpin11/lint/issues"
   },
