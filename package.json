@@ -1,23 +1,16 @@
 {
   "name": "@alpin11/lint",
   "version": "0.1.2",
-  "description": "extendable lint config used by Alpin11",
+  "description": "extendable lint config used by alpin11",
   "author": "Johann Berger <j.berger@alpin11.at> (https://www.alpin11.at/)",
   "files": [
     ".eslintrc",
     ".stylelintrc"
   ],
+  "repository": "https://github.com/alpin11/alpin11-lint",
   "scripts": {
     "release": "npm version patch && npm publish"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alpin11/lint.git"
-  },
-  "bugs": {
-    "url": "https://github.com/alpin11/lint/issues"
-  },
-  "homepage": "https://github.com/alpin11/lint#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.25.0",
     "@typescript-eslint/parser": "^4.25.0",
