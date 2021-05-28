@@ -89,6 +89,7 @@
             "prop": "parens-new-line"
         }],
         "react/jsx-first-prop-new-line": ["error", "multiline-multiprop"],
+        "react/jsx-no-useless-fragment": "error",
         "react/display-name": "off",
         "react/prop-types": "off"
     }
