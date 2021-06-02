@@ -1,6 +1,6 @@
 {
   "name": "@alpin11/lint",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "extendable lint config used by alpin11",
   "author": "Johann Berger <j.berger@alpin11.at> (https://www.alpin11.at/)",
   "files": [
