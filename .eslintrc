@@ -30,6 +30,7 @@
     ],
     "rules": {        
         "prefer-template": "error",
+        "jsx-quotes": ["error", "prefer-double"],
         "standard/no-callback-literal": "off",
         "no-void": "off",
         "no-new": "off",
