@@ -35,6 +35,7 @@
         "no-void": "off",
         "no-new": "off",
         "comma-dangle": "off",
+        "array-callback-return": "off",
         
         "@typescript-eslint/comma-dangle": ["error", "always-multiline"],
         "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
