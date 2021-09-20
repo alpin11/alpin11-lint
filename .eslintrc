@@ -32,6 +32,7 @@
     ],
     "rules": {        
         "prefer-template": "error",
+        "space-infix-ops": "error",
         "jsx-quotes": ["error", "prefer-double"],
         "standard/no-callback-literal": "off",
         "no-void": "off",
@@ -39,6 +40,7 @@
         "comma-dangle": "off",
         "array-callback-return": "off",
         
+        "@typescript-eslint/space-infix-ops": "error",
         "@typescript-eslint/comma-dangle": ["error", "always-multiline"],
         "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
         "@typescript-eslint/consistent-type-imports": ["error", {"prefer": "type-imports"}],
