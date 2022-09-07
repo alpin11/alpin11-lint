@@ -11,7 +11,8 @@
     "extends": [
         "plugin:react/recommended",
         "plugin:react-hooks/recommended",
-        "standard-with-typescript"
+        "standard-with-typescript",
+        "plugin:react/jsx-runtime"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -30,7 +31,7 @@
         "@typescript-eslint",
         "react"
     ],
-    "rules": {        
+    "rules": {
         "prefer-template": "error",
         "space-infix-ops": "error",
         "jsx-quotes": ["error", "prefer-double"],
@@ -39,7 +40,7 @@
         "no-new": "off",
         "comma-dangle": "off",
         "array-callback-return": "off",
-        
+
         "@typescript-eslint/space-infix-ops": "error",
         "@typescript-eslint/comma-dangle": ["error", "always-multiline"],
         "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
