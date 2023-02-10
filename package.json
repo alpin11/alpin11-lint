@@ -2,7 +2,7 @@
   "name": "@alpin11/lint",
   "version": "0.2.6",
   "description": "extendable lint config used by alpin11",
-  "author": "Johann Berger <j.berger@alpin11.at> (https://www.alpin11.at/)",
+  "author": "Dominik Ager <d.ager@alpin11.com> (https://www.alpin11.com/)",
   "files": [
     ".eslintrc",
     ".stylelintrc"
