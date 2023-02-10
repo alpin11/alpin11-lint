@@ -25,6 +25,7 @@ jobs:
         git config user.name Dominik Ager
         git config user.email d.ager@alpin11.com
         git pull
+        npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
         npm version patch
         git push
         npm publish
