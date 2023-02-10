@@ -6,7 +6,7 @@ on:
 
 jobs:
   release-package:
-    runs-on: self-hosted
+    runs-on: self-hosted-hetzner
 
     steps:
     - uses: actions/checkout@v2
