@@ -9,10 +9,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - uses: bahmutov/npm-install@v1
-
-    - run: |
+    - uses: actions/checkout@v3
+    - name: Setup NodeJS
+      uses: actions/setup-node@v3
+      with:
+        node-version: "16"
+    - name: Install Yarn
+      run: npm install -g yarn
+    - name: check node version
+      run: node -v
+    - name: Install modules
+      run: yarn install --frozen-lockfile
+    - name: Publish
+      run: |
         git config user.name Dominik Ager
         git config user.email d.ager@alpin11.com
         git pull
