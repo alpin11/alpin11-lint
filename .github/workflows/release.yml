@@ -13,8 +13,8 @@ jobs:
     - uses: bahmutov/npm-install@v1
 
     - run: |
-        git config user.name Johann Berger
-        git config user.email j.berger@alpin11.com
+        git config user.name Dominik Ager
+        git config user.email d.ager@alpin11.com
         git pull
         npm version patch
         git push
