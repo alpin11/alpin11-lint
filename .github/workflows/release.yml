@@ -28,3 +28,5 @@ jobs:
         npm version patch
         git push
         npm publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
