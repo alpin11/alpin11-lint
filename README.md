@@ -1,4 +1,4 @@
-## alpin11-lint
+# alpin11-lint
 
 1. install package `npm i @alpin11/lint`
 
