@@ -27,8 +27,8 @@ jobs:
         git config user.name Dominik Ager
         git config user.email d.ager@alpin11.com
         git pull
-        npm version patch
+        yarn version --patch
         git push
-        npm publish --userconfig=./.npmrc --registry=https://npm.pkg.github.com/
+        yarn publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
