@@ -13,22 +13,24 @@ jobs:
     - name: Setup NodeJS
       uses: actions/setup-node@v3
       with:
-        node-version: "16"
-    - name: check node version
-      run: node -v
+        node-version: 16
+        registry-url: https://npm.pkg.github.com/
     - name: Run install
       uses: borales/actions-yarn@v4
       with:
         cmd: install --frozen-lockfile
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-    - name: Publish
+    - name: Patch version
       run: |
         git config user.name Dominik Ager
         git config user.email d.ager@alpin11.com
         git pull
         yarn version --patch
         git push
-        yarn publish
+    - name: Publish
+      run: npm publish 
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  
