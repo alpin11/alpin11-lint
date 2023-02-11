@@ -29,6 +29,6 @@ jobs:
         git pull
         npm version patch
         git push
-        npm publish
+        npm publish --userconfig=./.npmrc --registry=https://npm.pkg.github.com/
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
