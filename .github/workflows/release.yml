@@ -29,7 +29,6 @@ jobs:
         git pull
         npm version patch
         git push
-        npm adduser --registry=https://npm.pkg.github.com
         npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
