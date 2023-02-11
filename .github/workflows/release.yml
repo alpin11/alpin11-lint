@@ -14,12 +14,14 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: "16"
-    - name: Install Yarn
-      run: npm install -g yarn
     - name: check node version
       run: node -v
-    - name: Install modules
-      run: yarn install --frozen-lockfile
+    - name: Run install
+      uses: borales/actions-yarn@v4
+      with:
+        cmd: install --frozen-lockfile
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     - name: Publish
       run: |
         git config user.name Dominik Ager
