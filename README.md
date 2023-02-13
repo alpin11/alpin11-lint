@@ -34,7 +34,7 @@ Heavily based on [JohnDeved's ESLint Config](https://github.com/JohnDeved/undefi
 
 ## Authors
 
+- [@JohnDeved](https://www.github.com/JohnDeved)
 - [@dominikager](https://www.github.com/dominikager)
 - [@DeltaSAMP](https://www.github.com/DeltaSAMP)
 - [@halykon](https://www.github.com/halykon)
-- [@JohnDeved](https://www.github.com/JohnDeved)
