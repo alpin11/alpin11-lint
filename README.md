@@ -1,5 +1,5 @@
 
-![alpin11-font-dark](https://user-images.githubusercontent.com/37235804/218451217-8b782714-a81d-45a8-a13f-9eff889bb9a8.svg)
+![alpin11-indigo](https://user-images.githubusercontent.com/37235804/218451376-4725aaae-b6b9-469a-85fc-c9265100dd49.svg)
 
 # Alpin11 Lint
 
