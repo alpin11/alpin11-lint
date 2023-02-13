@@ -1,7 +1,7 @@
 
 ![alpin11-indigo](https://user-images.githubusercontent.com/37235804/218451376-4725aaae-b6b9-469a-85fc-c9265100dd49.svg)
 
-# Alpin11 Lint
+# ALPIN11 Lint
 
 An extendable ESLint config used for all projects at Alpin11.
 
