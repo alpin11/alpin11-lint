@@ -7,30 +7,33 @@ on:
 jobs:
   release-package:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: read
+      packages: write
     steps:
     - uses: actions/checkout@v3
     - name: Setup NodeJS
       uses: actions/setup-node@v3
       with:
         node-version: 16
-        registry-url: https://npm.pkg.github.com/
-    - name: Run install
-      uses: borales/actions-yarn@v4
-      with:
-        cmd: install --frozen-lockfile
+        registry-url: 'https://npm.pkg.github.com'
+        scope: '@alpin11'
+    - name: Install Yarn
+      run: npm install -g yarn
+    - name: Install modules
+      run: yarn install --frozen-lockfile
       env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Patch version
       run: |
-        git config user.name Dominik Ager
-        git config user.email d.ager@alpin11.com
+        git config user.name Alpin11
+        git config user.email devs@alpin11.com
         git pull
         yarn version --patch
         git push
     - name: Publish
-      run: npm publish 
+      run: yarn publish 
       env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   

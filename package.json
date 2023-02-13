@@ -7,7 +7,10 @@
     ".eslintrc",
     ".stylelintrc"
   ],
-  "repository": "https://github.com/alpin11/alpin11-lint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alpin11/alpin11-lint.git"
+  },
   "scripts": {
     "release": "npm version patch && npm publish"
   },
