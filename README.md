@@ -1,8 +1,9 @@
 
+![alpin11-font-dark](https://user-images.githubusercontent.com/37235804/218451217-8b782714-a81d-45a8-a13f-9eff889bb9a8.svg)
+
 # Alpin11 Lint
 
 An extendable ESLint config used for all projects at Alpin11.
-
 
 ## Installation
 
