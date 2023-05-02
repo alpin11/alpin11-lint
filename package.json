@@ -12,10 +12,7 @@
     "url": "https://github.com/alpin11/alpin11-lint.git"
   },
   "scripts": {
-    "release": "npm version patch && npm publish"
-  },
-  "publishConfig": {
-    "@alpin11:registry": "https://npm.pkg.github.com"
+    "release": "yarn version patch && yarn publish"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.12.1",
