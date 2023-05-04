@@ -1,8 +1,9 @@
 {
-  "name": "@alpin11/lint",
-  "version": "0.2.30",
+  "name": "@alpin11/eslint-config",
+  "version": "0.2.34",
   "description": "Extendable lint config used by alpin11",
   "author": "Dominik Ager <d.ager@alpin11.com> (https://www.alpin11.com/)",
+  "main": "index.js",
   "files": [
     ".eslintrc",
     ".stylelintrc"
@@ -17,7 +18,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.59.2",
     "@typescript-eslint/parser": "5.12.1",
-    "eslint": "^8.9.0",
+    "eslint": "^8.39.0",
     "eslint-config-standard-with-typescript": "^21.0.1",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",

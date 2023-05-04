@@ -12,17 +12,17 @@ First make sure you remove any previous eslint configs as well as eslint itself.
 Install our lint config with npm or yarn:
 
 ```bash
-  yarn add @alpin11/lint
+  yarn add -D @alpin11/eslint-config
 ```
 or
 ```bash
-npm i @alpin11/lint
+npm i --save-dev @alpin11/eslint-config
 ```
 After installation, create a `.eslintrc` in your project root and add the following contents
 ```json
 {
   "extends": [
-    "./node_modules/@alpin11/lint/.eslintrc",
+    "@alpin11",
   ]
 }
 ```
