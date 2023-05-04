@@ -1,8 +1,9 @@
 {
-  "name": "@alpin11/lint",
+  "name": "@alpin11/eslint-config",
   "version": "0.2.31",
   "description": "Extendable lint config used by alpin11",
   "author": "Dominik Ager <d.ager@alpin11.com> (https://www.alpin11.com/)",
+  "main": "./index.js",
   "files": [
     ".eslintrc",
     ".stylelintrc"
