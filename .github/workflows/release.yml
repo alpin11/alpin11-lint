@@ -21,13 +21,6 @@ jobs:
           run_install: |
             - recursive: true
               args: [--frozen-lockfile, --strict-peer-dependencies]
-      - name: Patch version
-        run: |
-          git config user.name Alpin11
-          git config user.email devs@alpin11.com
-          git pull
-          yarn version --patch
-          git push
       - uses: JS-DevTools/npm-publish@v2
         with:
           token: ${{ secrets.NPM_TOKEN }}
