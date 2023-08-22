@@ -42,7 +42,13 @@ module.exports = {
         "array-callback-return": "off",
 
         "@typescript-eslint/space-infix-ops": "error",
-        "@typescript-eslint/comma-dangle": ["error", "always-multiline"],
+        "@typescript-eslint/comma-dangle": ["error", {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "never",
+        "exports": "always-multiline",
+        "functions": "always-multiline"
+    }]
         "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
         "@typescript-eslint/consistent-type-imports": ["error", {"prefer": "type-imports"}],
         "@typescript-eslint/no-inferrable-types": "error",
