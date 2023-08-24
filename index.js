@@ -47,7 +47,10 @@ module.exports = {
             "objects": "always-multiline",
             "imports": "ignore",
             "exports": "always-multiline",
-            "functions": "always-multiline"
+            "functions": "always-multiline",
+            "enums": "always-multiline",
+            "generics": "always-multiline",
+            "tuples": "always-multiline"
         }],
         "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
         "@typescript-eslint/consistent-type-imports": ["error", {"prefer": "type-imports"}],
