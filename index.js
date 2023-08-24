@@ -48,7 +48,7 @@ module.exports = {
         "imports": "never",
         "exports": "always-multiline",
         "functions": "always-multiline"
-    }]
+        }],
         "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
         "@typescript-eslint/consistent-type-imports": ["error", {"prefer": "type-imports"}],
         "@typescript-eslint/no-inferrable-types": "error",
