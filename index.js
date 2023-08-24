@@ -43,11 +43,11 @@ module.exports = {
 
         "@typescript-eslint/space-infix-ops": "error",
         "@typescript-eslint/comma-dangle": ["error", {
-        "arrays": "always-multiline",
-        "objects": "always-multiline",
-        "imports": "never",
-        "exports": "always-multiline",
-        "functions": "always-multiline"
+            "arrays": "always-multiline",
+            "objects": "always-multiline",
+            "imports": "ignore",
+            "exports": "always-multiline",
+            "functions": "always-multiline"
         }],
         "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
         "@typescript-eslint/consistent-type-imports": ["error", {"prefer": "type-imports"}],
@@ -75,7 +75,6 @@ module.exports = {
         "@typescript-eslint/method-signature-style": "off",
         "@typescript-eslint/return-await": "off",
         "@typescript-eslint/no-non-null-assertion": "off",
-
         "react/jsx-indent": ["error", 2, { "checkAttributes": true, "indentLogicalExpressions": true }],
         "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
         "react/self-closing-comp": ["error", { "component": true, "html": true }],
