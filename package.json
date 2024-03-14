@@ -1,6 +1,6 @@
 {
   "name": "@alpin11/eslint-config",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Extendable lint config used by alpin11",
   "author": "ALPIN11 Team <devs@alpin11.com> (https://www.alpin11.com/)",
   "main": "index.js",
