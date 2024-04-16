@@ -79,6 +79,7 @@ module.exports = {
         "@typescript-eslint/return-await": "off",
         "@typescript-eslint/no-non-null-assertion": "off",
         "@typescript-eslint/unbound-method": "off",
+        "@typescript-eslint/no-useless-constructor": "off",
         "react/jsx-indent": ["error", 2, { "checkAttributes": true, "indentLogicalExpressions": true }],
         "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
         "react/self-closing-comp": ["error", { "component": true, "html": true }],
