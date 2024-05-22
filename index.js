@@ -11,7 +11,7 @@ module.exports = {
     "extends": [
         "plugin:react/recommended",
         "plugin:react-hooks/recommended",
-        "standard-with-typescript",
+        "eslint-config-love",
         "plugin:react/jsx-runtime"
     ],
     "globals": {
