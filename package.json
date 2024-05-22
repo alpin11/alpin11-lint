@@ -1,6 +1,6 @@
 {
   "name": "@alpin11/eslint-config",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Extendable lint config used by alpin11",
   "author": "ALPIN11 Team <devs@alpin11.com> (https://www.alpin11.com/)",
   "main": "index.js",
@@ -21,12 +21,12 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.34.0",
-    "eslint-plugin-react-hooks": "^4.6.0"
-  },
-  "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.6.0",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.0"
+  },
+  "devDependencies": {
     "typescript": "^5.4.5"
   }
 }
